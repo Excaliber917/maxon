@@ -1088,7 +1088,7 @@
 
 @media (max-width:640px) {
     .employee-card {
-        width: 300px;
+        width: 280px;
         margin-top: 1.3rem;
     }
 
@@ -1097,7 +1097,7 @@
     }
 
     .employee-card-blog {
-        width: 300px;
+        width: 280px;
     }
 
 }
