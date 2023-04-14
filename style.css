@@ -237,7 +237,7 @@
 
     .hero_head {
         line-height: 1;
-        font-size: 2.59rem;
+        font-size: 2rem;
     }
 
     .hero_btn {
@@ -385,9 +385,11 @@
         position: relative;
         /* padding-right: 30%; */
     }
+
     .about_img1 {
         bottom: -20%;
     }
+
     .about_img1_img {
         height: 520px;
         width: 110%;
@@ -825,7 +827,7 @@
 
 .testi_head {
     margin-bottom: 3rem;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-weight: 900;
 }
 
@@ -894,6 +896,7 @@
 
     .testi_desc {
         width: 100%;
+        align-items: center;
     }
 
     .testi_img {
@@ -1275,7 +1278,7 @@
     }
 
     .lowerfooter {
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
 
 }
