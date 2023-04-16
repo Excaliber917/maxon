@@ -837,7 +837,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 196, 0, 0.769);
+    background-color: rgb(255 196 0 / 49%);
     border: none;
     width: 50px;
     height: 50px;
