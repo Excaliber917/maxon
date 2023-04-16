@@ -40,3 +40,18 @@ nextButton.addEventListener("click", () => {
     }
     image.src = imageLinks[position];
 });
+
+const video = document.querySelector("#video");
+const playButton = document.querySelector(".play_button");
+
+playButton.addEventListener("click", () => {
+    if (video.paused) {
+        video.play();
+        // playButton.classList.add("playing");
+    } else {
+        video.pause();
+        // playButton.classList.remove("playing");
+    }
+});
+
+

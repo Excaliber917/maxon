@@ -808,12 +808,43 @@
 .test_vid {
     width: 45%;
     margin-right: 5%;
+    position: relative;
 }
 
 #video {
     width: 100%;
 
 }
+
+
+
+#video {
+    width: 100%;
+}
+
+.play_button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 196, 0, 0.769);
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.play_button:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-65%, -50%) rotate(180deg);
+    border-top: 15px solid transparent;
+    border-left: 25px solid rgb(218, 218, 218);
+    border-bottom: 15px solid transparent;
+}
+
 
 .testi_head {
     margin-bottom: 3rem;
@@ -887,8 +918,8 @@
     border-radius: 50%;
     color: whitesmoke;
     width: 50px;
-	height: 35px;
-	cursor: pointer;
+    height: 35px;
+    cursor: pointer;
 
 }
 
