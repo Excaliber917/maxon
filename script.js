@@ -40,8 +40,8 @@ const testimonials = [
     // add more testimonials as needed
 ];
 
-const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
+const prevButton = document.querySelector('.prev-btn');
+const nextButton = document.querySelector('.next-btn');
 const image = document.querySelector('.testi_img');
 const description = document.querySelector('.testi_desc_p');
 const name = document.querySelector('.testi_desc_sign');
